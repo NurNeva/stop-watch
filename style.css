@@ -1,0 +1,38 @@
+:root {
+
+    --body-color:#389677;
+}
+
+.title{
+
+    max-width: 600px;
+}
+
+body{
+
+   
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/02/13/01/winter-1791370_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    background-attachment: fixed;
+
+}
+.btn{
+    font-size: 100px;
+} 
+
+
+.time{
+
+    font-size: 60px;
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+        background-size: auto; 
+    }
+  }
+
